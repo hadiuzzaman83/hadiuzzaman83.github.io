@@ -288,11 +288,12 @@ section .title::after{
 }
 .services .serv-content .card .text{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: bold;
     margin: 10px 0 7px 0;
+    color: #111;
 }
 .services .serv-content .card .text.p{
-    color: crimson;
+    color: rgb(17, 110, 106);
 }
 .skills .title::after{
     content: "what I know";
@@ -369,6 +370,7 @@ section .title::after{
 .skills-content .right .python::before{
     width: 30%;
 }
+/*
 .teams .title::after{
     content: "who with me";
 }
@@ -430,7 +432,7 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
-
+*/
 .contact .title::after{
     content: "get in touch";
 }
